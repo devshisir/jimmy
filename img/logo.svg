@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="151px" height="27px" viewBox="0 0 151 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>TicketLab</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica" font-size="35" font-weight="normal">
+        <g id="Home-page" transform="translate(-390.000000, -33.000000)">
+            <g id="header" transform="translate(390.000000, 22.000000)">
+                <g id="TicketLab">
+                    <text>
+                        <tspan x="0.629638672" y="37" fill="#D65050">Ticket</tspan>
+                        <tspan x="93.9743652" y="37" fill="#B1B1B1">Lab</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

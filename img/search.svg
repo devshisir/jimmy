@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.1%" y="-38.8%" width="112.2%" height="193.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page" transform="translate(-1317.000000, -29.000000)" fill="#FFFFFF">
+            <g id="header" transform="translate(390.000000, 22.000000)">
+                <g id="Group-3">
+                    <g transform="translate(523.000000, 0.000000)">
+                        <g id="Group-5" filter="url(#filter-1)" transform="translate(241.000000, 0.000000)">
+                            <g id="search-(1)" transform="translate(176.000000, 16.000000)">
+                                <path d="M14.7709091,14.2960227 L11.0740909,10.4515909 C12.0248864,9.32079545 12.5457955,7.89852273 12.5457955,6.41795455 C12.5457955,2.95943182 9.73193182,0.145568182 6.27204545,0.145568182 C2.81386364,0.145568182 0,2.95943182 0,6.41795455 C0,9.8775 2.81386364,12.6913636 6.27204545,12.6913636 C7.57056818,12.6913636 8.80909091,12.3 9.86625,11.5554545 L13.5923864,15.4305682 C13.7481818,15.5931818 13.9571591,15.6821591 14.1825,15.6821591 C14.3942045,15.6821591 14.595,15.6010227 14.7484091,15.4534091 C15.0746591,15.1404545 15.0838636,14.6222727 14.7709091,14.2960227 Z M6.27204545,1.78227273 C8.82886364,1.78227273 10.9090909,3.8625 10.9090909,6.41795455 C10.9090909,8.97477273 8.82886364,11.0546591 6.27204545,11.0546591 C3.71659091,11.0546591 1.63670455,8.97477273 1.63670455,6.41795455 C1.63670455,3.8625 3.71659091,1.78227273 6.27204545,1.78227273 Z" id="Fill-1"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

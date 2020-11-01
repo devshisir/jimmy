@@ -1,0 +1,198 @@
+.te-venue-page .tp-venue-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px; }
+  @media (max-width: 767px) {
+    .te-venue-page .tp-venue-top {
+      flex-wrap: wrap;
+      margin-bottom: 35px; } }
+
+@media (max-width: 767px) {
+  .te-venue-page .tp-title {
+    width: 100%; } }
+
+.te-venue-page .tp-dropdown {
+  min-width: 395px; }
+  @media (max-width: 991px) {
+    .te-venue-page .tp-dropdown {
+      min-width: 280px; } }
+  @media (max-width: 767px) {
+    .te-venue-page .tp-dropdown {
+      margin-top: 30px; } }
+  .te-venue-page .tp-dropdown .dropdown-toggle {
+    border: none;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.09);
+    color: #5E5E5E;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 28px;
+    border-radius: 8px;
+    min-width: 395px;
+    text-align: left;
+    background-color: #fff;
+    position: relative; }
+    @media (max-width: 1199px) {
+      .te-venue-page .tp-dropdown .dropdown-toggle {
+        font-size: 16px; } }
+    @media (max-width: 991px) {
+      .te-venue-page .tp-dropdown .dropdown-toggle {
+        min-width: 280px; } }
+    @media (max-width: 767px) {
+      .te-venue-page .tp-dropdown .dropdown-toggle {
+        padding: 12px 15px;
+        border-radius: 4px;
+        font-size: 14px; } }
+    .te-venue-page .tp-dropdown .dropdown-toggle:hover, .te-venue-page .tp-dropdown .dropdown-toggle:focus, .te-venue-page .tp-dropdown .dropdown-toggle:active {
+      box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.09) !important;
+      opacity: 1; }
+  .te-venue-page .tp-dropdown .dropdown-menu {
+    border: none;
+    width: 100%;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.09);
+    margin: 0; }
+  .te-venue-page .tp-dropdown.show .dropdown-toggle {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none; }
+    .te-venue-page .tp-dropdown.show .dropdown-toggle:after {
+      transform: rotate(-180deg); }
+  .te-venue-page .tp-dropdown.show .dropdown-menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+.te-venue-page h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #5E5E5E; }
+  @media (max-width: 575px) {
+    .te-venue-page h3 {
+      font-size: 18px; } }
+
+.te-venue-page .tp-venue-data {
+  margin: 15px 0 40px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5E5E5E; }
+  @media (max-width: 767px) {
+    .te-venue-page .tp-venue-data {
+      margin: 20px 0 47px; } }
+  @media (max-width: 480px) {
+    .te-venue-page .tp-venue-data {
+      font-size: 12px; } }
+  .te-venue-page .tp-venue-data div {
+    position: relative; }
+    .te-venue-page .tp-venue-data div i {
+      display: inline-block;
+      height: 26px;
+      width: 26px;
+      margin-right: 13px; }
+      @media (max-width: 575px) {
+        .te-venue-page .tp-venue-data div i {
+          height: 17px;
+          width: 17px;
+          margin-right: 4px; } }
+  .te-venue-page .tp-venue-data .tp-venue-location i {
+    background: url("../img/venue-location.svg") no-repeat;
+    background-size: contain; }
+    @media (max-width: 575px) {
+      .te-venue-page .tp-venue-data .tp-venue-location i {
+        width: 12px; } }
+  .te-venue-page .tp-venue-data .tp-venue-contact {
+    margin-left: 30px; }
+    @media (max-width: 575px) {
+      .te-venue-page .tp-venue-data .tp-venue-contact {
+        margin-left: 10px; } }
+    .te-venue-page .tp-venue-data .tp-venue-contact i {
+      background: url("../img/venue-contact.svg") no-repeat;
+      background-size: contain; }
+
+.te-venue-page .tp-slider {
+  margin-bottom: 35px; }
+  @media (max-width: 767px) {
+    .te-venue-page .tp-slider {
+      margin-bottom: 30px; } }
+  .te-venue-page .tp-slider .swiper-slide {
+    height: 450px; }
+    @media (max-width: 991px) {
+      .te-venue-page .tp-slider .swiper-slide {
+        height: 390px; } }
+    .te-venue-page .tp-slider .swiper-slide:before {
+      display: none; }
+    .te-venue-page .tp-slider .swiper-slide:after {
+      height: 141px;
+      background-image: linear-gradient(-180deg, rgba(238, 238, 238, 0) 3%, rgba(57, 57, 57, 0.76) 67%, #000000 100%); }
+
+.te-venue-page .tp-venue-upcoming-show {
+  margin-top: 60px; }
+  @media (max-width: 767px) {
+    .te-venue-page .tp-venue-upcoming-show {
+      margin-top: 50px; } }
+  .te-venue-page .tp-venue-upcoming-show h2 {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 26px;
+    color: #5E5E5E;
+    margin-bottom: 34px; }
+    @media (max-width: 1199px) {
+      .te-venue-page .tp-venue-upcoming-show h2 {
+        font-size: 24px; } }
+    @media (max-width: 767px) {
+      .te-venue-page .tp-venue-upcoming-show h2 {
+        font-size: 18px;
+        margin-bottom: 16px; } }
+  .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list {
+    border-bottom: 1px solid rgba(177, 177, 177, 0.37);
+    padding-bottom: 44px;
+    margin-bottom: 45px; }
+    @media (max-width: 767px) {
+      .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list {
+        padding-bottom: 50px;
+        margin-bottom: 25px; } }
+    .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 40px; }
+      @media (max-width: 767px) {
+        .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list:last-child {
+          margin-bottom: 55px; } }
+    .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px; }
+      @media (max-width: 767px) {
+        .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top {
+          flex-wrap: wrap;
+          margin-bottom: 15px; } }
+      .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-left {
+        font-size: 16px;
+        color: #D65050;
+        font-weight: 700; }
+      .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right {
+        font-weight: 400;
+        font-size: 16px; }
+        @media (max-width: 767px) {
+          .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right {
+            width: 100%;
+            margin-top: 20px; } }
+        @media (max-width: 767px) {
+          .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right {
+            font-size: 14px; } }
+        .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right .tp-upcoming-date {
+          color: #B1B1B1; }
+          .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right .tp-upcoming-date i {
+            background: url("../img/calendar.svg") no-repeat;
+            background-size: contain;
+            width: 26px;
+            height: 26px;
+            margin-right: 15px; }
+            @media (max-width: 767px) {
+              .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right .tp-upcoming-date i {
+                width: 17px;
+                height: 17px;
+                margin-right: 10px; } }
+        .te-venue-page .tp-venue-upcoming-show .tp-venue-upcoming-show-data .tp-venue-upcoming-show-list .tp-upcoming-list-top .tp-upcoming-list-top-right .tp-upcming-buy {
+          color: #D65050;
+          font-style: italic;
+          margin-left: 30px; }

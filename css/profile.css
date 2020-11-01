@@ -1,0 +1,133 @@
+.tp-profile-main-page {
+  background: url(../img/profile-img-01.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 288px;
+  position: relative; }
+  @media (max-width: 991px) {
+    .tp-profile-main-page {
+      height: 215px; } }
+  @media (max-width: 575px) {
+    .tp-profile-main-page {
+      height: 200px; } }
+  .tp-profile-main-page::before {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0) 0%, #000000 100%); }
+
+.tp-user-profile-list {
+  margin-top: -190px; }
+  @media (max-width: 1199px) {
+    .tp-user-profile-list {
+      margin-top: -130px; } }
+  @media (max-width: 991px) {
+    .tp-user-profile-list {
+      margin-top: -110px; } }
+  @media (max-width: 480px) {
+    .tp-user-profile-list {
+      margin-top: -70px; } }
+  .tp-user-profile-list .tp-user-img {
+    background: #fff;
+    width: 253px;
+    height: 253px;
+    border-radius: 50%;
+    border: 4px solid #E0E0E0;
+    overflow: hidden; }
+    @media (max-width: 1199px) {
+      .tp-user-profile-list .tp-user-img {
+        width: 213px;
+        height: 213px; } }
+    @media (max-width: 991px) {
+      .tp-user-profile-list .tp-user-img {
+        width: 175px;
+        height: 175px; } }
+    @media (max-width: 767px) {
+      .tp-user-profile-list .tp-user-img {
+        width: 165px;
+        height: 165px; } }
+    @media (max-width: 575px) {
+      .tp-user-profile-list .tp-user-img {
+        width: 140px;
+        height: 140px; } }
+    @media (max-width: 480px) {
+      .tp-user-profile-list .tp-user-img {
+        width: 100px;
+        height: 100px; } }
+    .tp-user-profile-list .tp-user-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center; }
+  .tp-user-profile-list .tp-profile-litle-main {
+    margin-top: 80px; }
+    @media (max-width: 1199px) {
+      .tp-user-profile-list .tp-profile-litle-main {
+        margin-top: 50px; } }
+    @media (max-width: 991px) {
+      .tp-user-profile-list .tp-profile-litle-main {
+        margin-top: 40px; } }
+    @media (max-width: 480px) {
+      .tp-user-profile-list .tp-profile-litle-main {
+        margin: 5px 0 0 15px; } }
+    .tp-user-profile-list .tp-profile-litle-main .tp-title {
+      color: #fff; }
+      @media (max-width: 991px) {
+        .tp-user-profile-list .tp-profile-litle-main .tp-title {
+          font-size: 28px;
+          line-height: 20px; } }
+      @media (max-width: 575px) {
+        .tp-user-profile-list .tp-profile-litle-main .tp-title {
+          font-size: 26px; } }
+      .tp-user-profile-list .tp-profile-litle-main .tp-title span {
+        color: #fff;
+        text-transform: lowercase;
+        margin-top: 6px; }
+        @media (max-width: 575px) {
+          .tp-user-profile-list .tp-profile-litle-main .tp-title span {
+            font-size: 22px;
+            margin-top: 10px; } }
+  .tp-user-profile-list .tp-credit-card-info-main {
+    padding: 70px 0 0; }
+    @media (max-width: 991px) {
+      .tp-user-profile-list .tp-credit-card-info-main {
+        padding: 50px 0 0; } }
+    @media (max-width: 575px) {
+      .tp-user-profile-list .tp-credit-card-info-main {
+        padding: 40px 0 0; } }
+    .tp-user-profile-list .tp-credit-card-info-main h4 {
+      font-size: 26px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #5E5E5E; }
+      @media (max-width: 991px) {
+        .tp-user-profile-list .tp-credit-card-info-main h4 {
+          font-size: 20px; } }
+    .tp-user-profile-list .tp-credit-card-info-main .tp-form-list-main {
+      padding: 50px 0 0; }
+      @media (max-width: 991px) {
+        .tp-user-profile-list .tp-credit-card-info-main .tp-form-list-main {
+          padding: 30px 0 0; } }
+      @media (max-width: 575px) {
+        .tp-user-profile-list .tp-credit-card-info-main .tp-form-list-main {
+          padding: 35px 0 0; } }
+      .tp-user-profile-list .tp-credit-card-info-main .tp-form-list-main .tp-btn-edit {
+        padding: 26px 0 0; }
+
+.tp-profile-page-upcoming {
+  padding: 70px 0; }
+  @media (max-width: 767px) {
+    .tp-profile-page-upcoming {
+      padding: 45px 0; } }
+  .tp-profile-page-upcoming .tp-find-more-shows {
+    margin-top: 40px; }
+    @media (max-width: 767px) {
+      .tp-profile-page-upcoming .tp-find-more-shows {
+        margin-top: 30px; } }
+
+.tp-profile-page-past {
+  padding: 0 0 100px; }
